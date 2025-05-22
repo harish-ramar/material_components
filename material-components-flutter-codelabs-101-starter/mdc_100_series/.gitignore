@@ -1,0 +1,46 @@
+# Git ignore for Flutter projects
+
+# Generic files
+.DS_Store
+.env
+.idea/
+.vscode/
+
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+/build/
+.gradle/
+.flutter-tool-cache/
+
+# Android specific
+android/.gradle
+android/local.properties
+android/**/*.iml
+android/build/
+android/app/build/
+android/app/.cxx/
+android/app/.externalNativeBuild/
+android/app/src/main/assets/flutter_assets/
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# iOS specific
+ios/.symlinks
+ios/Flutter/.last_build_id
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_export_environment.sh
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Pods/
+ios/.generated_plugin_registrant.dart
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+
+# VS Code specific
+.history/
+.vscode/
